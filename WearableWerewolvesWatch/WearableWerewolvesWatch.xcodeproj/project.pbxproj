@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B28F7D0D1F8AB21000C831D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F7D0C1F8AB21000C831D2 /* AppDelegate.swift */; };
+		B28F7D0F1F8AB21000C831D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F7D0E1F8AB21000C831D2 /* ViewController.swift */; };
+		B28F7D121F8AB21000C831D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28F7D101F8AB21000C831D2 /* Main.storyboard */; };
+		B28F7D141F8AB21000C831D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28F7D131F8AB21000C831D2 /* Assets.xcassets */; };
+		B28F7D171F8AB21000C831D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28F7D151F8AB21000C831D2 /* LaunchScreen.storyboard */; };
+		B28F7D1C1F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B28F7D1B1F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit App.app */; };
+		B28F7D221F8AB21000C831D2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28F7D201F8AB21000C831D2 /* Interface.storyboard */; };
+		B28F7D241F8AB21000C831D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28F7D231F8AB21000C831D2 /* Assets.xcassets */; };
+		B28F7D2B1F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B28F7D2A1F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B28F7D301F8AB21000C831D2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F7D2F1F8AB21000C831D2 /* InterfaceController.swift */; };
+		B28F7D321F8AB21000C831D2 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F7D311F8AB21000C831D2 /* ExtensionDelegate.swift */; };
+		B28F7D341F8AB21000C831D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28F7D331F8AB21000C831D2 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B28F7D1D1F8AB21000C831D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B28F7D011F8AB20F00C831D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B28F7D1A1F8AB21000C831D2;
+			remoteInfo = "WearableWerewolvesWatch WatchKit App";
+		};
+		B28F7D2C1F8AB21000C831D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B28F7D011F8AB20F00C831D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B28F7D291F8AB21000C831D2;
+			remoteInfo = "WearableWerewolvesWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B28F7D3B1F8AB21000C831D2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B28F7D2B1F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28F7D3F1F8AB21000C831D2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B28F7D1C1F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B28F7D091F8AB20F00C831D2 /* WearableWerewolvesWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WearableWerewolvesWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28F7D0C1F8AB21000C831D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B28F7D0E1F8AB21000C831D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B28F7D111F8AB21000C831D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B28F7D131F8AB21000C831D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B28F7D161F8AB21000C831D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B28F7D181F8AB21000C831D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B28F7D1B1F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WearableWerewolvesWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28F7D211F8AB21000C831D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B28F7D231F8AB21000C831D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B28F7D251F8AB21000C831D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B28F7D2A1F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WearableWerewolvesWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28F7D2F1F8AB21000C831D2 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B28F7D311F8AB21000C831D2 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		B28F7D331F8AB21000C831D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B28F7D351F8AB21000C831D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B28F7D061F8AB20F00C831D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28F7D271F8AB21000C831D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B28F7D001F8AB20F00C831D2 = {
+			isa = PBXGroup;
+			children = (
+				B28F7D0B1F8AB20F00C831D2 /* WearableWerewolvesWatch */,
+				B28F7D1F1F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit App */,
+				B28F7D2E1F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit Extension */,
+				B28F7D0A1F8AB20F00C831D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B28F7D0A1F8AB20F00C831D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B28F7D091F8AB20F00C831D2 /* WearableWerewolvesWatch.app */,
+				B28F7D1B1F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit App.app */,
+				B28F7D2A1F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B28F7D0B1F8AB20F00C831D2 /* WearableWerewolvesWatch */ = {
+			isa = PBXGroup;
+			children = (
+				B28F7D0C1F8AB21000C831D2 /* AppDelegate.swift */,
+				B28F7D0E1F8AB21000C831D2 /* ViewController.swift */,
+				B28F7D101F8AB21000C831D2 /* Main.storyboard */,
+				B28F7D131F8AB21000C831D2 /* Assets.xcassets */,
+				B28F7D151F8AB21000C831D2 /* LaunchScreen.storyboard */,
+				B28F7D181F8AB21000C831D2 /* Info.plist */,
+			);
+			path = WearableWerewolvesWatch;
+			sourceTree = "<group>";
+		};
+		B28F7D1F1F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B28F7D201F8AB21000C831D2 /* Interface.storyboard */,
+				B28F7D231F8AB21000C831D2 /* Assets.xcassets */,
+				B28F7D251F8AB21000C831D2 /* Info.plist */,
+			);
+			path = "WearableWerewolvesWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		B28F7D2E1F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B28F7D2F1F8AB21000C831D2 /* InterfaceController.swift */,
+				B28F7D311F8AB21000C831D2 /* ExtensionDelegate.swift */,
+				B28F7D331F8AB21000C831D2 /* Assets.xcassets */,
+				B28F7D351F8AB21000C831D2 /* Info.plist */,
+			);
+			path = "WearableWerewolvesWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B28F7D081F8AB20F00C831D2 /* WearableWerewolvesWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28F7D401F8AB21000C831D2 /* Build configuration list for PBXNativeTarget "WearableWerewolvesWatch" */;
+			buildPhases = (
+				B28F7D051F8AB20F00C831D2 /* Sources */,
+				B28F7D061F8AB20F00C831D2 /* Frameworks */,
+				B28F7D071F8AB20F00C831D2 /* Resources */,
+				B28F7D3F1F8AB21000C831D2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B28F7D1E1F8AB21000C831D2 /* PBXTargetDependency */,
+			);
+			name = WearableWerewolvesWatch;
+			productName = WearableWerewolvesWatch;
+			productReference = B28F7D091F8AB20F00C831D2 /* WearableWerewolvesWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B28F7D1A1F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28F7D3C1F8AB21000C831D2 /* Build configuration list for PBXNativeTarget "WearableWerewolvesWatch WatchKit App" */;
+			buildPhases = (
+				B28F7D191F8AB21000C831D2 /* Resources */,
+				B28F7D3B1F8AB21000C831D2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B28F7D2D1F8AB21000C831D2 /* PBXTargetDependency */,
+			);
+			name = "WearableWerewolvesWatch WatchKit App";
+			productName = "WearableWerewolvesWatch WatchKit App";
+			productReference = B28F7D1B1F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B28F7D291F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28F7D381F8AB21000C831D2 /* Build configuration list for PBXNativeTarget "WearableWerewolvesWatch WatchKit Extension" */;
+			buildPhases = (
+				B28F7D261F8AB21000C831D2 /* Sources */,
+				B28F7D271F8AB21000C831D2 /* Frameworks */,
+				B28F7D281F8AB21000C831D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WearableWerewolvesWatch WatchKit Extension";
+			productName = "WearableWerewolvesWatch WatchKit Extension";
+			productReference = B28F7D2A1F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B28F7D011F8AB20F00C831D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = aschwtzr;
+				TargetAttributes = {
+					B28F7D081F8AB20F00C831D2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					B28F7D1A1F8AB21000C831D2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					B28F7D291F8AB21000C831D2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B28F7D041F8AB20F00C831D2 /* Build configuration list for PBXProject "WearableWerewolvesWatch" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B28F7D001F8AB20F00C831D2;
+			productRefGroup = B28F7D0A1F8AB20F00C831D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B28F7D081F8AB20F00C831D2 /* WearableWerewolvesWatch */,
+				B28F7D1A1F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit App */,
+				B28F7D291F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B28F7D071F8AB20F00C831D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28F7D171F8AB21000C831D2 /* LaunchScreen.storyboard in Resources */,
+				B28F7D141F8AB21000C831D2 /* Assets.xcassets in Resources */,
+				B28F7D121F8AB21000C831D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28F7D191F8AB21000C831D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28F7D241F8AB21000C831D2 /* Assets.xcassets in Resources */,
+				B28F7D221F8AB21000C831D2 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28F7D281F8AB21000C831D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28F7D341F8AB21000C831D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B28F7D051F8AB20F00C831D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28F7D0F1F8AB21000C831D2 /* ViewController.swift in Sources */,
+				B28F7D0D1F8AB21000C831D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28F7D261F8AB21000C831D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28F7D321F8AB21000C831D2 /* ExtensionDelegate.swift in Sources */,
+				B28F7D301F8AB21000C831D2 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B28F7D1E1F8AB21000C831D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B28F7D1A1F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit App */;
+			targetProxy = B28F7D1D1F8AB21000C831D2 /* PBXContainerItemProxy */;
+		};
+		B28F7D2D1F8AB21000C831D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B28F7D291F8AB21000C831D2 /* WearableWerewolvesWatch WatchKit Extension */;
+			targetProxy = B28F7D2C1F8AB21000C831D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B28F7D101F8AB21000C831D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B28F7D111F8AB21000C831D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B28F7D151F8AB21000C831D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B28F7D161F8AB21000C831D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B28F7D201F8AB21000C831D2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B28F7D211F8AB21000C831D2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B28F7D361F8AB21000C831D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B28F7D371F8AB21000C831D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B28F7D391F8AB21000C831D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 283D978R86;
+				INFOPLIST_FILE = "WearableWerewolvesWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aschwtzr.WearableWerewolvesWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		B28F7D3A1F8AB21000C831D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 283D978R86;
+				INFOPLIST_FILE = "WearableWerewolvesWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aschwtzr.WearableWerewolvesWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		B28F7D3D1F8AB21000C831D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 283D978R86;
+				IBSC_MODULE = WearableWerewolvesWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "WearableWerewolvesWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aschwtzr.WearableWerewolvesWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		B28F7D3E1F8AB21000C831D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 283D978R86;
+				IBSC_MODULE = WearableWerewolvesWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "WearableWerewolvesWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aschwtzr.WearableWerewolvesWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		B28F7D411F8AB21000C831D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 283D978R86;
+				INFOPLIST_FILE = WearableWerewolvesWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aschwtzr.WearableWerewolvesWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B28F7D421F8AB21000C831D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 283D978R86;
+				INFOPLIST_FILE = WearableWerewolvesWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aschwtzr.WearableWerewolvesWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B28F7D041F8AB20F00C831D2 /* Build configuration list for PBXProject "WearableWerewolvesWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28F7D361F8AB21000C831D2 /* Debug */,
+				B28F7D371F8AB21000C831D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28F7D381F8AB21000C831D2 /* Build configuration list for PBXNativeTarget "WearableWerewolvesWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28F7D391F8AB21000C831D2 /* Debug */,
+				B28F7D3A1F8AB21000C831D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28F7D3C1F8AB21000C831D2 /* Build configuration list for PBXNativeTarget "WearableWerewolvesWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28F7D3D1F8AB21000C831D2 /* Debug */,
+				B28F7D3E1F8AB21000C831D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28F7D401F8AB21000C831D2 /* Build configuration list for PBXNativeTarget "WearableWerewolvesWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28F7D411F8AB21000C831D2 /* Debug */,
+				B28F7D421F8AB21000C831D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B28F7D011F8AB20F00C831D2 /* Project object */;
+}

@@ -20,47 +20,47 @@
 
 
 // UnityEngineInternal.Input.NativeInputDeviceInfo
-struct NativeInputDeviceInfo_t1714473412;
+struct NativeInputDeviceInfo_t256752773;
 // UnityEngineInternal.Input.NativeDeviceDiscoveredCallback
-struct NativeDeviceDiscoveredCallback_t3569735077;
+struct NativeDeviceDiscoveredCallback_t1479953752;
 // System.IAsyncResult
-struct IAsyncResult_t1055566646;
+struct IAsyncResult_t3294869306;
 // System.AsyncCallback
-struct AsyncCallback_t4194240925;
+struct AsyncCallback_t4006585187;
 // UnityEngineInternal.Input.NativeEventCallback
-struct NativeEventCallback_t1718667241;
+struct NativeEventCallback_t330405571;
 // UnityEngineInternal.Input.NativeUpdateCallback
-struct NativeUpdateCallback_t4055949114;
+struct NativeUpdateCallback_t3874572432;
 // System.Char[]
-struct CharU5BU5D_t1237632434;
+struct CharU5BU5D_t1540401220;
 // System.String
 struct String_t;
 // System.Void
-struct Void_t3968031514;
+struct Void_t3136149552;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.DelegateData
-struct DelegateData_t4018218907;
+struct DelegateData_t440269872;
 
-struct NativeInputDeviceInfo_t1714473412_marshaled_pinvoke;
-struct NativeInputDeviceInfo_t1714473412;;
-struct NativeInputDeviceInfo_t1714473412_marshaled_pinvoke;;
-extern RuntimeClass* NativeInputDeviceInfo_t1714473412_il2cpp_TypeInfo_var;
-extern const uint32_t NativeDeviceDiscoveredCallback_BeginInvoke_m1205629561_MetadataUsageId;
-extern RuntimeClass* Int32_t429044550_il2cpp_TypeInfo_var;
+struct NativeInputDeviceInfo_t256752773_marshaled_pinvoke;
+struct NativeInputDeviceInfo_t256752773;;
+struct NativeInputDeviceInfo_t256752773_marshaled_pinvoke;;
+extern RuntimeClass* NativeInputDeviceInfo_t256752773_il2cpp_TypeInfo_var;
+extern const uint32_t NativeDeviceDiscoveredCallback_BeginInvoke_m2828496857_MetadataUsageId;
+extern RuntimeClass* Int32_t4090041701_il2cpp_TypeInfo_var;
 extern RuntimeClass* IntPtr_t_il2cpp_TypeInfo_var;
-extern const uint32_t NativeEventCallback_BeginInvoke_m3373299626_MetadataUsageId;
-extern RuntimeClass* NativeInputSystem_t3245625084_il2cpp_TypeInfo_var;
-extern const uint32_t NativeInputSystem_NotifyUpdate_m1334631794_MetadataUsageId;
-extern const uint32_t NativeInputSystem_NotifyEvents_m4105945358_MetadataUsageId;
-extern const uint32_t NativeInputSystem_NotifyDeviceDiscovered_m3150596229_MetadataUsageId;
-extern RuntimeClass* NativeInputUpdateType_t4102540627_il2cpp_TypeInfo_var;
-extern const uint32_t NativeUpdateCallback_BeginInvoke_m3023408740_MetadataUsageId;
+extern const uint32_t NativeEventCallback_BeginInvoke_m3291119258_MetadataUsageId;
+extern RuntimeClass* NativeInputSystem_t3674566808_il2cpp_TypeInfo_var;
+extern const uint32_t NativeInputSystem_NotifyUpdate_m590869076_MetadataUsageId;
+extern const uint32_t NativeInputSystem_NotifyEvents_m378102542_MetadataUsageId;
+extern const uint32_t NativeInputSystem_NotifyDeviceDiscovered_m1956611394_MetadataUsageId;
+extern RuntimeClass* NativeInputUpdateType_t974919227_il2cpp_TypeInfo_var;
+extern const uint32_t NativeUpdateCallback_BeginInvoke_m2218767577_MetadataUsageId;
 
 
 
-#ifndef U3CMODULEU3E_T1107393326_H
-#define U3CMODULEU3E_T1107393326_H
+#ifndef U3CMODULEU3E_T904409362_H
+#define U3CMODULEU3E_T904409362_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -68,7 +68,7 @@ extern const uint32_t NativeUpdateCallback_BeginInvoke_m3023408740_MetadataUsage
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t1107393326 
+struct  U3CModuleU3E_t904409362 
 {
 public:
 
@@ -78,7 +78,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CMODULEU3E_T1107393326_H
+#endif // U3CMODULEU3E_T904409362_H
 #ifndef RUNTIMEOBJECT_H
 #define RUNTIMEOBJECT_H
 #ifdef __clang__
@@ -108,8 +108,8 @@ struct Il2CppArrayBounds;
 #pragma clang diagnostic pop
 #endif
 #endif // RUNTIMEARRAY_H
-#ifndef VALUETYPE_T186291818_H
-#define VALUETYPE_T186291818_H
+#ifndef VALUETYPE_T767587093_H
+#define VALUETYPE_T767587093_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -117,7 +117,7 @@ struct Il2CppArrayBounds;
 #endif
 
 // System.ValueType
-struct  ValueType_t186291818  : public RuntimeObject
+struct  ValueType_t767587093  : public RuntimeObject
 {
 public:
 
@@ -128,16 +128,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of System.ValueType
-struct ValueType_t186291818_marshaled_pinvoke
+struct ValueType_t767587093_marshaled_pinvoke
 {
 };
 // Native definition for COM marshalling of System.ValueType
-struct ValueType_t186291818_marshaled_com
+struct ValueType_t767587093_marshaled_com
 {
 };
-#endif // VALUETYPE_T186291818_H
-#ifndef NATIVEINPUTSYSTEM_T3245625084_H
-#define NATIVEINPUTSYSTEM_T3245625084_H
+#endif // VALUETYPE_T767587093_H
+#ifndef NATIVEINPUTSYSTEM_T3674566808_H
+#define NATIVEINPUTSYSTEM_T3674566808_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -145,46 +145,46 @@ struct ValueType_t186291818_marshaled_com
 #endif
 
 // UnityEngineInternal.Input.NativeInputSystem
-struct  NativeInputSystem_t3245625084  : public RuntimeObject
+struct  NativeInputSystem_t3674566808  : public RuntimeObject
 {
 public:
 
 public:
 };
 
-struct NativeInputSystem_t3245625084_StaticFields
+struct NativeInputSystem_t3674566808_StaticFields
 {
 public:
 	// UnityEngineInternal.Input.NativeUpdateCallback UnityEngineInternal.Input.NativeInputSystem::onUpdate
-	NativeUpdateCallback_t4055949114 * ___onUpdate_0;
+	NativeUpdateCallback_t3874572432 * ___onUpdate_0;
 	// UnityEngineInternal.Input.NativeEventCallback UnityEngineInternal.Input.NativeInputSystem::onEvents
-	NativeEventCallback_t1718667241 * ___onEvents_1;
+	NativeEventCallback_t330405571 * ___onEvents_1;
 	// UnityEngineInternal.Input.NativeDeviceDiscoveredCallback UnityEngineInternal.Input.NativeInputSystem::s_OnDeviceDiscoveredCallback
-	NativeDeviceDiscoveredCallback_t3569735077 * ___s_OnDeviceDiscoveredCallback_2;
+	NativeDeviceDiscoveredCallback_t1479953752 * ___s_OnDeviceDiscoveredCallback_2;
 
 public:
-	inline static int32_t get_offset_of_onUpdate_0() { return static_cast<int32_t>(offsetof(NativeInputSystem_t3245625084_StaticFields, ___onUpdate_0)); }
-	inline NativeUpdateCallback_t4055949114 * get_onUpdate_0() const { return ___onUpdate_0; }
-	inline NativeUpdateCallback_t4055949114 ** get_address_of_onUpdate_0() { return &___onUpdate_0; }
-	inline void set_onUpdate_0(NativeUpdateCallback_t4055949114 * value)
+	inline static int32_t get_offset_of_onUpdate_0() { return static_cast<int32_t>(offsetof(NativeInputSystem_t3674566808_StaticFields, ___onUpdate_0)); }
+	inline NativeUpdateCallback_t3874572432 * get_onUpdate_0() const { return ___onUpdate_0; }
+	inline NativeUpdateCallback_t3874572432 ** get_address_of_onUpdate_0() { return &___onUpdate_0; }
+	inline void set_onUpdate_0(NativeUpdateCallback_t3874572432 * value)
 	{
 		___onUpdate_0 = value;
 		Il2CppCodeGenWriteBarrier((&___onUpdate_0), value);
 	}
 
-	inline static int32_t get_offset_of_onEvents_1() { return static_cast<int32_t>(offsetof(NativeInputSystem_t3245625084_StaticFields, ___onEvents_1)); }
-	inline NativeEventCallback_t1718667241 * get_onEvents_1() const { return ___onEvents_1; }
-	inline NativeEventCallback_t1718667241 ** get_address_of_onEvents_1() { return &___onEvents_1; }
-	inline void set_onEvents_1(NativeEventCallback_t1718667241 * value)
+	inline static int32_t get_offset_of_onEvents_1() { return static_cast<int32_t>(offsetof(NativeInputSystem_t3674566808_StaticFields, ___onEvents_1)); }
+	inline NativeEventCallback_t330405571 * get_onEvents_1() const { return ___onEvents_1; }
+	inline NativeEventCallback_t330405571 ** get_address_of_onEvents_1() { return &___onEvents_1; }
+	inline void set_onEvents_1(NativeEventCallback_t330405571 * value)
 	{
 		___onEvents_1 = value;
 		Il2CppCodeGenWriteBarrier((&___onEvents_1), value);
 	}
 
-	inline static int32_t get_offset_of_s_OnDeviceDiscoveredCallback_2() { return static_cast<int32_t>(offsetof(NativeInputSystem_t3245625084_StaticFields, ___s_OnDeviceDiscoveredCallback_2)); }
-	inline NativeDeviceDiscoveredCallback_t3569735077 * get_s_OnDeviceDiscoveredCallback_2() const { return ___s_OnDeviceDiscoveredCallback_2; }
-	inline NativeDeviceDiscoveredCallback_t3569735077 ** get_address_of_s_OnDeviceDiscoveredCallback_2() { return &___s_OnDeviceDiscoveredCallback_2; }
-	inline void set_s_OnDeviceDiscoveredCallback_2(NativeDeviceDiscoveredCallback_t3569735077 * value)
+	inline static int32_t get_offset_of_s_OnDeviceDiscoveredCallback_2() { return static_cast<int32_t>(offsetof(NativeInputSystem_t3674566808_StaticFields, ___s_OnDeviceDiscoveredCallback_2)); }
+	inline NativeDeviceDiscoveredCallback_t1479953752 * get_s_OnDeviceDiscoveredCallback_2() const { return ___s_OnDeviceDiscoveredCallback_2; }
+	inline NativeDeviceDiscoveredCallback_t1479953752 ** get_address_of_s_OnDeviceDiscoveredCallback_2() { return &___s_OnDeviceDiscoveredCallback_2; }
+	inline void set_s_OnDeviceDiscoveredCallback_2(NativeDeviceDiscoveredCallback_t1479953752 * value)
 	{
 		___s_OnDeviceDiscoveredCallback_2 = value;
 		Il2CppCodeGenWriteBarrier((&___s_OnDeviceDiscoveredCallback_2), value);
@@ -194,7 +194,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // NATIVEINPUTSYSTEM_T3245625084_H
+#endif // NATIVEINPUTSYSTEM_T3674566808_H
 #ifndef STRING_T_H
 #define STRING_T_H
 #ifdef __clang__
@@ -236,7 +236,7 @@ public:
 	// System.String System.String::Empty
 	String_t* ___Empty_2;
 	// System.Char[] System.String::WhiteChars
-	CharU5BU5D_t1237632434* ___WhiteChars_3;
+	CharU5BU5D_t1540401220* ___WhiteChars_3;
 
 public:
 	inline static int32_t get_offset_of_Empty_2() { return static_cast<int32_t>(offsetof(String_t_StaticFields, ___Empty_2)); }
@@ -249,9 +249,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_WhiteChars_3() { return static_cast<int32_t>(offsetof(String_t_StaticFields, ___WhiteChars_3)); }
-	inline CharU5BU5D_t1237632434* get_WhiteChars_3() const { return ___WhiteChars_3; }
-	inline CharU5BU5D_t1237632434** get_address_of_WhiteChars_3() { return &___WhiteChars_3; }
-	inline void set_WhiteChars_3(CharU5BU5D_t1237632434* value)
+	inline CharU5BU5D_t1540401220* get_WhiteChars_3() const { return ___WhiteChars_3; }
+	inline CharU5BU5D_t1540401220** get_address_of_WhiteChars_3() { return &___WhiteChars_3; }
+	inline void set_WhiteChars_3(CharU5BU5D_t1540401220* value)
 	{
 		___WhiteChars_3 = value;
 		Il2CppCodeGenWriteBarrier((&___WhiteChars_3), value);
@@ -262,8 +262,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // STRING_T_H
-#ifndef BOOLEAN_T1241177154_H
-#define BOOLEAN_T1241177154_H
+#ifndef BOOLEAN_T2555314693_H
+#define BOOLEAN_T2555314693_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -271,14 +271,14 @@ public:
 #endif
 
 // System.Boolean
-struct  Boolean_t1241177154 
+struct  Boolean_t2555314693 
 {
 public:
 	// System.Boolean System.Boolean::m_value
 	bool ___m_value_2;
 
 public:
-	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Boolean_t1241177154, ___m_value_2)); }
+	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Boolean_t2555314693, ___m_value_2)); }
 	inline bool get_m_value_2() const { return ___m_value_2; }
 	inline bool* get_address_of_m_value_2() { return &___m_value_2; }
 	inline void set_m_value_2(bool value)
@@ -287,7 +287,7 @@ public:
 	}
 };
 
-struct Boolean_t1241177154_StaticFields
+struct Boolean_t2555314693_StaticFields
 {
 public:
 	// System.String System.Boolean::FalseString
@@ -296,7 +296,7 @@ public:
 	String_t* ___TrueString_1;
 
 public:
-	inline static int32_t get_offset_of_FalseString_0() { return static_cast<int32_t>(offsetof(Boolean_t1241177154_StaticFields, ___FalseString_0)); }
+	inline static int32_t get_offset_of_FalseString_0() { return static_cast<int32_t>(offsetof(Boolean_t2555314693_StaticFields, ___FalseString_0)); }
 	inline String_t* get_FalseString_0() const { return ___FalseString_0; }
 	inline String_t** get_address_of_FalseString_0() { return &___FalseString_0; }
 	inline void set_FalseString_0(String_t* value)
@@ -305,7 +305,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___FalseString_0), value);
 	}
 
-	inline static int32_t get_offset_of_TrueString_1() { return static_cast<int32_t>(offsetof(Boolean_t1241177154_StaticFields, ___TrueString_1)); }
+	inline static int32_t get_offset_of_TrueString_1() { return static_cast<int32_t>(offsetof(Boolean_t2555314693_StaticFields, ___TrueString_1)); }
 	inline String_t* get_TrueString_1() const { return ___TrueString_1; }
 	inline String_t** get_address_of_TrueString_1() { return &___TrueString_1; }
 	inline void set_TrueString_1(String_t* value)
@@ -318,9 +318,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // BOOLEAN_T1241177154_H
-#ifndef ENUM_T1212945457_H
-#define ENUM_T1212945457_H
+#endif // BOOLEAN_T2555314693_H
+#ifndef ENUM_T3812697606_H
+#define ENUM_T3812697606_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -328,24 +328,24 @@ public:
 #endif
 
 // System.Enum
-struct  Enum_t1212945457  : public ValueType_t186291818
+struct  Enum_t3812697606  : public ValueType_t767587093
 {
 public:
 
 public:
 };
 
-struct Enum_t1212945457_StaticFields
+struct Enum_t3812697606_StaticFields
 {
 public:
 	// System.Char[] System.Enum::split_char
-	CharU5BU5D_t1237632434* ___split_char_0;
+	CharU5BU5D_t1540401220* ___split_char_0;
 
 public:
-	inline static int32_t get_offset_of_split_char_0() { return static_cast<int32_t>(offsetof(Enum_t1212945457_StaticFields, ___split_char_0)); }
-	inline CharU5BU5D_t1237632434* get_split_char_0() const { return ___split_char_0; }
-	inline CharU5BU5D_t1237632434** get_address_of_split_char_0() { return &___split_char_0; }
-	inline void set_split_char_0(CharU5BU5D_t1237632434* value)
+	inline static int32_t get_offset_of_split_char_0() { return static_cast<int32_t>(offsetof(Enum_t3812697606_StaticFields, ___split_char_0)); }
+	inline CharU5BU5D_t1540401220* get_split_char_0() const { return ___split_char_0; }
+	inline CharU5BU5D_t1540401220** get_address_of_split_char_0() { return &___split_char_0; }
+	inline void set_split_char_0(CharU5BU5D_t1540401220* value)
 	{
 		___split_char_0 = value;
 		Il2CppCodeGenWriteBarrier((&___split_char_0), value);
@@ -356,16 +356,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of System.Enum
-struct Enum_t1212945457_marshaled_pinvoke
+struct Enum_t3812697606_marshaled_pinvoke
 {
 };
 // Native definition for COM marshalling of System.Enum
-struct Enum_t1212945457_marshaled_com
+struct Enum_t3812697606_marshaled_com
 {
 };
-#endif // ENUM_T1212945457_H
-#ifndef INT32_T429044550_H
-#define INT32_T429044550_H
+#endif // ENUM_T3812697606_H
+#ifndef INT32_T4090041701_H
+#define INT32_T4090041701_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -373,14 +373,14 @@ struct Enum_t1212945457_marshaled_com
 #endif
 
 // System.Int32
-struct  Int32_t429044550 
+struct  Int32_t4090041701 
 {
 public:
 	// System.Int32 System.Int32::m_value
 	int32_t ___m_value_2;
 
 public:
-	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Int32_t429044550, ___m_value_2)); }
+	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Int32_t4090041701, ___m_value_2)); }
 	inline int32_t get_m_value_2() const { return ___m_value_2; }
 	inline int32_t* get_address_of_m_value_2() { return &___m_value_2; }
 	inline void set_m_value_2(int32_t value)
@@ -392,9 +392,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // INT32_T429044550_H
-#ifndef VOID_T3968031514_H
-#define VOID_T3968031514_H
+#endif // INT32_T4090041701_H
+#ifndef VOID_T3136149552_H
+#define VOID_T3136149552_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -402,7 +402,7 @@ public:
 #endif
 
 // System.Void
-struct  Void_t3968031514 
+struct  Void_t3136149552 
 {
 public:
 
@@ -412,7 +412,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // VOID_T3968031514_H
+#endif // VOID_T3136149552_H
 #ifndef INTPTR_T_H
 #define INTPTR_T_H
 #ifdef __clang__
@@ -458,8 +458,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // INTPTR_T_H
-#ifndef NATIVEINPUTDEVICEINFO_T1714473412_H
-#define NATIVEINPUTDEVICEINFO_T1714473412_H
+#ifndef NATIVEINPUTDEVICEINFO_T256752773_H
+#define NATIVEINPUTDEVICEINFO_T256752773_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -467,7 +467,7 @@ public:
 #endif
 
 // UnityEngineInternal.Input.NativeInputDeviceInfo
-struct  NativeInputDeviceInfo_t1714473412 
+struct  NativeInputDeviceInfo_t256752773 
 {
 public:
 	// System.Int32 UnityEngineInternal.Input.NativeInputDeviceInfo::deviceId
@@ -476,7 +476,7 @@ public:
 	String_t* ___deviceDescriptor_1;
 
 public:
-	inline static int32_t get_offset_of_deviceId_0() { return static_cast<int32_t>(offsetof(NativeInputDeviceInfo_t1714473412, ___deviceId_0)); }
+	inline static int32_t get_offset_of_deviceId_0() { return static_cast<int32_t>(offsetof(NativeInputDeviceInfo_t256752773, ___deviceId_0)); }
 	inline int32_t get_deviceId_0() const { return ___deviceId_0; }
 	inline int32_t* get_address_of_deviceId_0() { return &___deviceId_0; }
 	inline void set_deviceId_0(int32_t value)
@@ -484,7 +484,7 @@ public:
 		___deviceId_0 = value;
 	}
 
-	inline static int32_t get_offset_of_deviceDescriptor_1() { return static_cast<int32_t>(offsetof(NativeInputDeviceInfo_t1714473412, ___deviceDescriptor_1)); }
+	inline static int32_t get_offset_of_deviceDescriptor_1() { return static_cast<int32_t>(offsetof(NativeInputDeviceInfo_t256752773, ___deviceDescriptor_1)); }
 	inline String_t* get_deviceDescriptor_1() const { return ___deviceDescriptor_1; }
 	inline String_t** get_address_of_deviceDescriptor_1() { return &___deviceDescriptor_1; }
 	inline void set_deviceDescriptor_1(String_t* value)
@@ -498,20 +498,20 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of UnityEngineInternal.Input.NativeInputDeviceInfo
-struct NativeInputDeviceInfo_t1714473412_marshaled_pinvoke
+struct NativeInputDeviceInfo_t256752773_marshaled_pinvoke
 {
 	int32_t ___deviceId_0;
 	char* ___deviceDescriptor_1;
 };
 // Native definition for COM marshalling of UnityEngineInternal.Input.NativeInputDeviceInfo
-struct NativeInputDeviceInfo_t1714473412_marshaled_com
+struct NativeInputDeviceInfo_t256752773_marshaled_com
 {
 	int32_t ___deviceId_0;
 	Il2CppChar* ___deviceDescriptor_1;
 };
-#endif // NATIVEINPUTDEVICEINFO_T1714473412_H
-#ifndef NATIVEINPUTUPDATETYPE_T4102540627_H
-#define NATIVEINPUTUPDATETYPE_T4102540627_H
+#endif // NATIVEINPUTDEVICEINFO_T256752773_H
+#ifndef NATIVEINPUTUPDATETYPE_T974919227_H
+#define NATIVEINPUTUPDATETYPE_T974919227_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -519,14 +519,14 @@ struct NativeInputDeviceInfo_t1714473412_marshaled_com
 #endif
 
 // UnityEngineInternal.Input.NativeInputUpdateType
-struct  NativeInputUpdateType_t4102540627 
+struct  NativeInputUpdateType_t974919227 
 {
 public:
 	// System.Int32 UnityEngineInternal.Input.NativeInputUpdateType::value__
 	int32_t ___value___1;
 
 public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(NativeInputUpdateType_t4102540627, ___value___1)); }
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(NativeInputUpdateType_t974919227, ___value___1)); }
 	inline int32_t get_value___1() const { return ___value___1; }
 	inline int32_t* get_address_of_value___1() { return &___value___1; }
 	inline void set_value___1(int32_t value)
@@ -538,9 +538,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // NATIVEINPUTUPDATETYPE_T4102540627_H
-#ifndef DELEGATE_T3679647300_H
-#define DELEGATE_T3679647300_H
+#endif // NATIVEINPUTUPDATETYPE_T974919227_H
+#ifndef DELEGATE_T3017206360_H
+#define DELEGATE_T3017206360_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -548,7 +548,7 @@ public:
 #endif
 
 // System.Delegate
-struct  Delegate_t3679647300  : public RuntimeObject
+struct  Delegate_t3017206360  : public RuntimeObject
 {
 public:
 	// System.IntPtr System.Delegate::method_ptr
@@ -568,10 +568,10 @@ public:
 	// System.Reflection.MethodInfo System.Delegate::original_method_info
 	MethodInfo_t * ___original_method_info_7;
 	// System.DelegateData System.Delegate::data
-	DelegateData_t4018218907 * ___data_8;
+	DelegateData_t440269872 * ___data_8;
 
 public:
-	inline static int32_t get_offset_of_method_ptr_0() { return static_cast<int32_t>(offsetof(Delegate_t3679647300, ___method_ptr_0)); }
+	inline static int32_t get_offset_of_method_ptr_0() { return static_cast<int32_t>(offsetof(Delegate_t3017206360, ___method_ptr_0)); }
 	inline Il2CppMethodPointer get_method_ptr_0() const { return ___method_ptr_0; }
 	inline Il2CppMethodPointer* get_address_of_method_ptr_0() { return &___method_ptr_0; }
 	inline void set_method_ptr_0(Il2CppMethodPointer value)
@@ -579,7 +579,7 @@ public:
 		___method_ptr_0 = value;
 	}
 
-	inline static int32_t get_offset_of_invoke_impl_1() { return static_cast<int32_t>(offsetof(Delegate_t3679647300, ___invoke_impl_1)); }
+	inline static int32_t get_offset_of_invoke_impl_1() { return static_cast<int32_t>(offsetof(Delegate_t3017206360, ___invoke_impl_1)); }
 	inline intptr_t get_invoke_impl_1() const { return ___invoke_impl_1; }
 	inline intptr_t* get_address_of_invoke_impl_1() { return &___invoke_impl_1; }
 	inline void set_invoke_impl_1(intptr_t value)
@@ -587,7 +587,7 @@ public:
 		___invoke_impl_1 = value;
 	}
 
-	inline static int32_t get_offset_of_m_target_2() { return static_cast<int32_t>(offsetof(Delegate_t3679647300, ___m_target_2)); }
+	inline static int32_t get_offset_of_m_target_2() { return static_cast<int32_t>(offsetof(Delegate_t3017206360, ___m_target_2)); }
 	inline RuntimeObject * get_m_target_2() const { return ___m_target_2; }
 	inline RuntimeObject ** get_address_of_m_target_2() { return &___m_target_2; }
 	inline void set_m_target_2(RuntimeObject * value)
@@ -596,7 +596,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___m_target_2), value);
 	}
 
-	inline static int32_t get_offset_of_method_3() { return static_cast<int32_t>(offsetof(Delegate_t3679647300, ___method_3)); }
+	inline static int32_t get_offset_of_method_3() { return static_cast<int32_t>(offsetof(Delegate_t3017206360, ___method_3)); }
 	inline intptr_t get_method_3() const { return ___method_3; }
 	inline intptr_t* get_address_of_method_3() { return &___method_3; }
 	inline void set_method_3(intptr_t value)
@@ -604,7 +604,7 @@ public:
 		___method_3 = value;
 	}
 
-	inline static int32_t get_offset_of_delegate_trampoline_4() { return static_cast<int32_t>(offsetof(Delegate_t3679647300, ___delegate_trampoline_4)); }
+	inline static int32_t get_offset_of_delegate_trampoline_4() { return static_cast<int32_t>(offsetof(Delegate_t3017206360, ___delegate_trampoline_4)); }
 	inline intptr_t get_delegate_trampoline_4() const { return ___delegate_trampoline_4; }
 	inline intptr_t* get_address_of_delegate_trampoline_4() { return &___delegate_trampoline_4; }
 	inline void set_delegate_trampoline_4(intptr_t value)
@@ -612,7 +612,7 @@ public:
 		___delegate_trampoline_4 = value;
 	}
 
-	inline static int32_t get_offset_of_method_code_5() { return static_cast<int32_t>(offsetof(Delegate_t3679647300, ___method_code_5)); }
+	inline static int32_t get_offset_of_method_code_5() { return static_cast<int32_t>(offsetof(Delegate_t3017206360, ___method_code_5)); }
 	inline intptr_t get_method_code_5() const { return ___method_code_5; }
 	inline intptr_t* get_address_of_method_code_5() { return &___method_code_5; }
 	inline void set_method_code_5(intptr_t value)
@@ -620,7 +620,7 @@ public:
 		___method_code_5 = value;
 	}
 
-	inline static int32_t get_offset_of_method_info_6() { return static_cast<int32_t>(offsetof(Delegate_t3679647300, ___method_info_6)); }
+	inline static int32_t get_offset_of_method_info_6() { return static_cast<int32_t>(offsetof(Delegate_t3017206360, ___method_info_6)); }
 	inline MethodInfo_t * get_method_info_6() const { return ___method_info_6; }
 	inline MethodInfo_t ** get_address_of_method_info_6() { return &___method_info_6; }
 	inline void set_method_info_6(MethodInfo_t * value)
@@ -629,7 +629,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___method_info_6), value);
 	}
 
-	inline static int32_t get_offset_of_original_method_info_7() { return static_cast<int32_t>(offsetof(Delegate_t3679647300, ___original_method_info_7)); }
+	inline static int32_t get_offset_of_original_method_info_7() { return static_cast<int32_t>(offsetof(Delegate_t3017206360, ___original_method_info_7)); }
 	inline MethodInfo_t * get_original_method_info_7() const { return ___original_method_info_7; }
 	inline MethodInfo_t ** get_address_of_original_method_info_7() { return &___original_method_info_7; }
 	inline void set_original_method_info_7(MethodInfo_t * value)
@@ -638,10 +638,10 @@ public:
 		Il2CppCodeGenWriteBarrier((&___original_method_info_7), value);
 	}
 
-	inline static int32_t get_offset_of_data_8() { return static_cast<int32_t>(offsetof(Delegate_t3679647300, ___data_8)); }
-	inline DelegateData_t4018218907 * get_data_8() const { return ___data_8; }
-	inline DelegateData_t4018218907 ** get_address_of_data_8() { return &___data_8; }
-	inline void set_data_8(DelegateData_t4018218907 * value)
+	inline static int32_t get_offset_of_data_8() { return static_cast<int32_t>(offsetof(Delegate_t3017206360, ___data_8)); }
+	inline DelegateData_t440269872 * get_data_8() const { return ___data_8; }
+	inline DelegateData_t440269872 ** get_address_of_data_8() { return &___data_8; }
+	inline void set_data_8(DelegateData_t440269872 * value)
 	{
 		___data_8 = value;
 		Il2CppCodeGenWriteBarrier((&___data_8), value);
@@ -651,7 +651,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // DELEGATE_T3679647300_H
+#endif // DELEGATE_T3017206360_H
 #ifndef MULTICASTDELEGATE_T_H
 #define MULTICASTDELEGATE_T_H
 #ifdef __clang__
@@ -661,7 +661,7 @@ public:
 #endif
 
 // System.MulticastDelegate
-struct  MulticastDelegate_t  : public Delegate_t3679647300
+struct  MulticastDelegate_t  : public Delegate_t3017206360
 {
 public:
 	// System.MulticastDelegate System.MulticastDelegate::prev
@@ -693,8 +693,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // MULTICASTDELEGATE_T_H
-#ifndef ASYNCCALLBACK_T4194240925_H
-#define ASYNCCALLBACK_T4194240925_H
+#ifndef ASYNCCALLBACK_T4006585187_H
+#define ASYNCCALLBACK_T4006585187_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -702,7 +702,7 @@ public:
 #endif
 
 // System.AsyncCallback
-struct  AsyncCallback_t4194240925  : public MulticastDelegate_t
+struct  AsyncCallback_t4006585187  : public MulticastDelegate_t
 {
 public:
 
@@ -712,9 +712,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // ASYNCCALLBACK_T4194240925_H
-#ifndef NATIVEUPDATECALLBACK_T4055949114_H
-#define NATIVEUPDATECALLBACK_T4055949114_H
+#endif // ASYNCCALLBACK_T4006585187_H
+#ifndef NATIVEUPDATECALLBACK_T3874572432_H
+#define NATIVEUPDATECALLBACK_T3874572432_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -722,7 +722,7 @@ public:
 #endif
 
 // UnityEngineInternal.Input.NativeUpdateCallback
-struct  NativeUpdateCallback_t4055949114  : public MulticastDelegate_t
+struct  NativeUpdateCallback_t3874572432  : public MulticastDelegate_t
 {
 public:
 
@@ -732,9 +732,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // NATIVEUPDATECALLBACK_T4055949114_H
-#ifndef NATIVEDEVICEDISCOVEREDCALLBACK_T3569735077_H
-#define NATIVEDEVICEDISCOVEREDCALLBACK_T3569735077_H
+#endif // NATIVEUPDATECALLBACK_T3874572432_H
+#ifndef NATIVEDEVICEDISCOVEREDCALLBACK_T1479953752_H
+#define NATIVEDEVICEDISCOVEREDCALLBACK_T1479953752_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -742,7 +742,7 @@ public:
 #endif
 
 // UnityEngineInternal.Input.NativeDeviceDiscoveredCallback
-struct  NativeDeviceDiscoveredCallback_t3569735077  : public MulticastDelegate_t
+struct  NativeDeviceDiscoveredCallback_t1479953752  : public MulticastDelegate_t
 {
 public:
 
@@ -752,9 +752,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // NATIVEDEVICEDISCOVEREDCALLBACK_T3569735077_H
-#ifndef NATIVEEVENTCALLBACK_T1718667241_H
-#define NATIVEEVENTCALLBACK_T1718667241_H
+#endif // NATIVEDEVICEDISCOVEREDCALLBACK_T1479953752_H
+#ifndef NATIVEEVENTCALLBACK_T330405571_H
+#define NATIVEEVENTCALLBACK_T330405571_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -762,7 +762,7 @@ public:
 #endif
 
 // UnityEngineInternal.Input.NativeEventCallback
-struct  NativeEventCallback_t1718667241  : public MulticastDelegate_t
+struct  NativeEventCallback_t330405571  : public MulticastDelegate_t
 {
 public:
 
@@ -772,21 +772,21 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // NATIVEEVENTCALLBACK_T1718667241_H
+#endif // NATIVEEVENTCALLBACK_T330405571_H
 
-extern "C" void NativeInputDeviceInfo_t1714473412_marshal_pinvoke(const NativeInputDeviceInfo_t1714473412& unmarshaled, NativeInputDeviceInfo_t1714473412_marshaled_pinvoke& marshaled);
-extern "C" void NativeInputDeviceInfo_t1714473412_marshal_pinvoke_back(const NativeInputDeviceInfo_t1714473412_marshaled_pinvoke& marshaled, NativeInputDeviceInfo_t1714473412& unmarshaled);
-extern "C" void NativeInputDeviceInfo_t1714473412_marshal_pinvoke_cleanup(NativeInputDeviceInfo_t1714473412_marshaled_pinvoke& marshaled);
+extern "C" void NativeInputDeviceInfo_t256752773_marshal_pinvoke(const NativeInputDeviceInfo_t256752773& unmarshaled, NativeInputDeviceInfo_t256752773_marshaled_pinvoke& marshaled);
+extern "C" void NativeInputDeviceInfo_t256752773_marshal_pinvoke_back(const NativeInputDeviceInfo_t256752773_marshaled_pinvoke& marshaled, NativeInputDeviceInfo_t256752773& unmarshaled);
+extern "C" void NativeInputDeviceInfo_t256752773_marshal_pinvoke_cleanup(NativeInputDeviceInfo_t256752773_marshaled_pinvoke& marshaled);
 
 
 // System.Void UnityEngineInternal.Input.NativeDeviceDiscoveredCallback::Invoke(UnityEngineInternal.Input.NativeInputDeviceInfo)
-extern "C"  void NativeDeviceDiscoveredCallback_Invoke_m2211932943 (NativeDeviceDiscoveredCallback_t3569735077 * __this, NativeInputDeviceInfo_t1714473412  ___deviceInfo0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void NativeDeviceDiscoveredCallback_Invoke_m1840290670 (NativeDeviceDiscoveredCallback_t1479953752 * __this, NativeInputDeviceInfo_t256752773  ___deviceInfo0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngineInternal.Input.NativeEventCallback::Invoke(System.Int32,System.IntPtr)
-extern "C"  void NativeEventCallback_Invoke_m34659762 (NativeEventCallback_t1718667241 * __this, int32_t ___eventCount0, intptr_t ___eventData1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void NativeEventCallback_Invoke_m2247291025 (NativeEventCallback_t330405571 * __this, int32_t ___eventCount0, intptr_t ___eventData1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngineInternal.Input.NativeInputSystem::set_hasDeviceDiscoveredCallback(System.Boolean)
-extern "C"  void NativeInputSystem_set_hasDeviceDiscoveredCallback_m1910740132 (RuntimeObject * __this /* static, unused */, bool ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void NativeInputSystem_set_hasDeviceDiscoveredCallback_m935159801 (RuntimeObject * __this /* static, unused */, bool ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngineInternal.Input.NativeUpdateCallback::Invoke(UnityEngineInternal.Input.NativeInputUpdateType)
-extern "C"  void NativeUpdateCallback_Invoke_m3641844754 (NativeUpdateCallback_t4055949114 * __this, int32_t ___updateType0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void NativeUpdateCallback_Invoke_m244271118 (NativeUpdateCallback_t3874572432 * __this, int32_t ___updateType0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -800,37 +800,37 @@ extern "C"  void NativeUpdateCallback_Invoke_m3641844754 (NativeUpdateCallback_t
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern "C"  void DelegatePInvokeWrapper_NativeDeviceDiscoveredCallback_t3569735077 (NativeDeviceDiscoveredCallback_t3569735077 * __this, NativeInputDeviceInfo_t1714473412  ___deviceInfo0, const RuntimeMethod* method)
+extern "C"  void DelegatePInvokeWrapper_NativeDeviceDiscoveredCallback_t1479953752 (NativeDeviceDiscoveredCallback_t1479953752 * __this, NativeInputDeviceInfo_t256752773  ___deviceInfo0, const RuntimeMethod* method)
 {
 
 
-	typedef void (STDCALL *PInvokeFunc)(NativeInputDeviceInfo_t1714473412_marshaled_pinvoke);
+	typedef void (STDCALL *PInvokeFunc)(NativeInputDeviceInfo_t256752773_marshaled_pinvoke);
 	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
 
 	// Marshaling of parameter '___deviceInfo0' to native representation
-	NativeInputDeviceInfo_t1714473412_marshaled_pinvoke ____deviceInfo0_marshaled = {};
-	NativeInputDeviceInfo_t1714473412_marshal_pinvoke(___deviceInfo0, ____deviceInfo0_marshaled);
+	NativeInputDeviceInfo_t256752773_marshaled_pinvoke ____deviceInfo0_marshaled = {};
+	NativeInputDeviceInfo_t256752773_marshal_pinvoke(___deviceInfo0, ____deviceInfo0_marshaled);
 
 	// Native function invocation
 	il2cppPInvokeFunc(____deviceInfo0_marshaled);
 
 	// Marshaling cleanup of parameter '___deviceInfo0' native representation
-	NativeInputDeviceInfo_t1714473412_marshal_pinvoke_cleanup(____deviceInfo0_marshaled);
+	NativeInputDeviceInfo_t256752773_marshal_pinvoke_cleanup(____deviceInfo0_marshaled);
 
 }
 // System.Void UnityEngineInternal.Input.NativeDeviceDiscoveredCallback::.ctor(System.Object,System.IntPtr)
-extern "C"  void NativeDeviceDiscoveredCallback__ctor_m930481997 (NativeDeviceDiscoveredCallback_t3569735077 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+extern "C"  void NativeDeviceDiscoveredCallback__ctor_m253430063 (NativeDeviceDiscoveredCallback_t1479953752 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
 }
 // System.Void UnityEngineInternal.Input.NativeDeviceDiscoveredCallback::Invoke(UnityEngineInternal.Input.NativeInputDeviceInfo)
-extern "C"  void NativeDeviceDiscoveredCallback_Invoke_m2211932943 (NativeDeviceDiscoveredCallback_t3569735077 * __this, NativeInputDeviceInfo_t1714473412  ___deviceInfo0, const RuntimeMethod* method)
+extern "C"  void NativeDeviceDiscoveredCallback_Invoke_m1840290670 (NativeDeviceDiscoveredCallback_t1479953752 * __this, NativeInputDeviceInfo_t256752773  ___deviceInfo0, const RuntimeMethod* method)
 {
 	if(__this->get_prev_9() != NULL)
 	{
-		NativeDeviceDiscoveredCallback_Invoke_m2211932943((NativeDeviceDiscoveredCallback_t3569735077 *)__this->get_prev_9(), ___deviceInfo0, method);
+		NativeDeviceDiscoveredCallback_Invoke_m1840290670((NativeDeviceDiscoveredCallback_t1479953752 *)__this->get_prev_9(), ___deviceInfo0, method);
 	}
 	Il2CppMethodPointer targetMethodPointer = __this->get_method_ptr_0();
 	RuntimeMethod* targetMethod = (RuntimeMethod*)(__this->get_method_3());
@@ -842,13 +842,13 @@ extern "C"  void NativeDeviceDiscoveredCallback_Invoke_m2211932943 (NativeDevice
 		if (il2cpp_codegen_method_parameter_count(targetMethod) == 1)
 		{
 			// open
-			typedef void (*FunctionPointerType) (RuntimeObject *, NativeInputDeviceInfo_t1714473412 , const RuntimeMethod*);
+			typedef void (*FunctionPointerType) (RuntimeObject *, NativeInputDeviceInfo_t256752773 , const RuntimeMethod*);
 			((FunctionPointerType)targetMethodPointer)(NULL, ___deviceInfo0, targetMethod);
 		}
 		else
 		{
 			// closed
-			typedef void (*FunctionPointerType) (RuntimeObject *, void*, NativeInputDeviceInfo_t1714473412 , const RuntimeMethod*);
+			typedef void (*FunctionPointerType) (RuntimeObject *, void*, NativeInputDeviceInfo_t256752773 , const RuntimeMethod*);
 			((FunctionPointerType)targetMethodPointer)(NULL, targetThis, ___deviceInfo0, targetMethod);
 		}
 	}
@@ -856,26 +856,26 @@ extern "C"  void NativeDeviceDiscoveredCallback_Invoke_m2211932943 (NativeDevice
 	{
 		{
 			// closed
-			typedef void (*FunctionPointerType) (void*, NativeInputDeviceInfo_t1714473412 , const RuntimeMethod*);
+			typedef void (*FunctionPointerType) (void*, NativeInputDeviceInfo_t256752773 , const RuntimeMethod*);
 			((FunctionPointerType)targetMethodPointer)(targetThis, ___deviceInfo0, targetMethod);
 		}
 	}
 }
 // System.IAsyncResult UnityEngineInternal.Input.NativeDeviceDiscoveredCallback::BeginInvoke(UnityEngineInternal.Input.NativeInputDeviceInfo,System.AsyncCallback,System.Object)
-extern "C"  RuntimeObject* NativeDeviceDiscoveredCallback_BeginInvoke_m1205629561 (NativeDeviceDiscoveredCallback_t3569735077 * __this, NativeInputDeviceInfo_t1714473412  ___deviceInfo0, AsyncCallback_t4194240925 * ___callback1, RuntimeObject * ___object2, const RuntimeMethod* method)
+extern "C"  RuntimeObject* NativeDeviceDiscoveredCallback_BeginInvoke_m2828496857 (NativeDeviceDiscoveredCallback_t1479953752 * __this, NativeInputDeviceInfo_t256752773  ___deviceInfo0, AsyncCallback_t4006585187 * ___callback1, RuntimeObject * ___object2, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (NativeDeviceDiscoveredCallback_BeginInvoke_m1205629561_MetadataUsageId);
+		il2cpp_codegen_initialize_method (NativeDeviceDiscoveredCallback_BeginInvoke_m2828496857_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	void *__d_args[2] = {0};
-	__d_args[0] = Box(NativeInputDeviceInfo_t1714473412_il2cpp_TypeInfo_var, &___deviceInfo0);
+	__d_args[0] = Box(NativeInputDeviceInfo_t256752773_il2cpp_TypeInfo_var, &___deviceInfo0);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
 }
 // System.Void UnityEngineInternal.Input.NativeDeviceDiscoveredCallback::EndInvoke(System.IAsyncResult)
-extern "C"  void NativeDeviceDiscoveredCallback_EndInvoke_m1087481025 (NativeDeviceDiscoveredCallback_t3569735077 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+extern "C"  void NativeDeviceDiscoveredCallback_EndInvoke_m1282139868 (NativeDeviceDiscoveredCallback_t1479953752 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 }
@@ -887,7 +887,7 @@ extern "C"  void NativeDeviceDiscoveredCallback_EndInvoke_m1087481025 (NativeDev
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern "C"  void DelegatePInvokeWrapper_NativeEventCallback_t1718667241 (NativeEventCallback_t1718667241 * __this, int32_t ___eventCount0, intptr_t ___eventData1, const RuntimeMethod* method)
+extern "C"  void DelegatePInvokeWrapper_NativeEventCallback_t330405571 (NativeEventCallback_t330405571 * __this, int32_t ___eventCount0, intptr_t ___eventData1, const RuntimeMethod* method)
 {
 	typedef void (STDCALL *PInvokeFunc)(int32_t, intptr_t);
 	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
@@ -897,18 +897,18 @@ extern "C"  void DelegatePInvokeWrapper_NativeEventCallback_t1718667241 (NativeE
 
 }
 // System.Void UnityEngineInternal.Input.NativeEventCallback::.ctor(System.Object,System.IntPtr)
-extern "C"  void NativeEventCallback__ctor_m2949066867 (NativeEventCallback_t1718667241 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+extern "C"  void NativeEventCallback__ctor_m2262689021 (NativeEventCallback_t330405571 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
 }
 // System.Void UnityEngineInternal.Input.NativeEventCallback::Invoke(System.Int32,System.IntPtr)
-extern "C"  void NativeEventCallback_Invoke_m34659762 (NativeEventCallback_t1718667241 * __this, int32_t ___eventCount0, intptr_t ___eventData1, const RuntimeMethod* method)
+extern "C"  void NativeEventCallback_Invoke_m2247291025 (NativeEventCallback_t330405571 * __this, int32_t ___eventCount0, intptr_t ___eventData1, const RuntimeMethod* method)
 {
 	if(__this->get_prev_9() != NULL)
 	{
-		NativeEventCallback_Invoke_m34659762((NativeEventCallback_t1718667241 *)__this->get_prev_9(), ___eventCount0, ___eventData1, method);
+		NativeEventCallback_Invoke_m2247291025((NativeEventCallback_t330405571 *)__this->get_prev_9(), ___eventCount0, ___eventData1, method);
 	}
 	Il2CppMethodPointer targetMethodPointer = __this->get_method_ptr_0();
 	RuntimeMethod* targetMethod = (RuntimeMethod*)(__this->get_method_3());
@@ -940,21 +940,21 @@ extern "C"  void NativeEventCallback_Invoke_m34659762 (NativeEventCallback_t1718
 	}
 }
 // System.IAsyncResult UnityEngineInternal.Input.NativeEventCallback::BeginInvoke(System.Int32,System.IntPtr,System.AsyncCallback,System.Object)
-extern "C"  RuntimeObject* NativeEventCallback_BeginInvoke_m3373299626 (NativeEventCallback_t1718667241 * __this, int32_t ___eventCount0, intptr_t ___eventData1, AsyncCallback_t4194240925 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
+extern "C"  RuntimeObject* NativeEventCallback_BeginInvoke_m3291119258 (NativeEventCallback_t330405571 * __this, int32_t ___eventCount0, intptr_t ___eventData1, AsyncCallback_t4006585187 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (NativeEventCallback_BeginInvoke_m3373299626_MetadataUsageId);
+		il2cpp_codegen_initialize_method (NativeEventCallback_BeginInvoke_m3291119258_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	void *__d_args[3] = {0};
-	__d_args[0] = Box(Int32_t429044550_il2cpp_TypeInfo_var, &___eventCount0);
+	__d_args[0] = Box(Int32_t4090041701_il2cpp_TypeInfo_var, &___eventCount0);
 	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___eventData1);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
 }
 // System.Void UnityEngineInternal.Input.NativeEventCallback::EndInvoke(System.IAsyncResult)
-extern "C"  void NativeEventCallback_EndInvoke_m1788758957 (NativeEventCallback_t1718667241 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+extern "C"  void NativeEventCallback_EndInvoke_m680132824 (NativeEventCallback_t330405571 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 }
@@ -967,12 +967,12 @@ extern "C"  void NativeEventCallback_EndInvoke_m1788758957 (NativeEventCallback_
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Conversion methods for marshalling of: UnityEngineInternal.Input.NativeInputDeviceInfo
-extern "C" void NativeInputDeviceInfo_t1714473412_marshal_pinvoke(const NativeInputDeviceInfo_t1714473412& unmarshaled, NativeInputDeviceInfo_t1714473412_marshaled_pinvoke& marshaled)
+extern "C" void NativeInputDeviceInfo_t256752773_marshal_pinvoke(const NativeInputDeviceInfo_t256752773& unmarshaled, NativeInputDeviceInfo_t256752773_marshaled_pinvoke& marshaled)
 {
 	marshaled.___deviceId_0 = unmarshaled.get_deviceId_0();
 	marshaled.___deviceDescriptor_1 = il2cpp_codegen_marshal_string(unmarshaled.get_deviceDescriptor_1());
 }
-extern "C" void NativeInputDeviceInfo_t1714473412_marshal_pinvoke_back(const NativeInputDeviceInfo_t1714473412_marshaled_pinvoke& marshaled, NativeInputDeviceInfo_t1714473412& unmarshaled)
+extern "C" void NativeInputDeviceInfo_t256752773_marshal_pinvoke_back(const NativeInputDeviceInfo_t256752773_marshaled_pinvoke& marshaled, NativeInputDeviceInfo_t256752773& unmarshaled)
 {
 	int32_t unmarshaled_deviceId_temp_0 = 0;
 	unmarshaled_deviceId_temp_0 = marshaled.___deviceId_0;
@@ -980,18 +980,18 @@ extern "C" void NativeInputDeviceInfo_t1714473412_marshal_pinvoke_back(const Nat
 	unmarshaled.set_deviceDescriptor_1(il2cpp_codegen_marshal_string_result(marshaled.___deviceDescriptor_1));
 }
 // Conversion method for clean up from marshalling of: UnityEngineInternal.Input.NativeInputDeviceInfo
-extern "C" void NativeInputDeviceInfo_t1714473412_marshal_pinvoke_cleanup(NativeInputDeviceInfo_t1714473412_marshaled_pinvoke& marshaled)
+extern "C" void NativeInputDeviceInfo_t256752773_marshal_pinvoke_cleanup(NativeInputDeviceInfo_t256752773_marshaled_pinvoke& marshaled)
 {
 	il2cpp_codegen_marshal_free(marshaled.___deviceDescriptor_1);
 	marshaled.___deviceDescriptor_1 = NULL;
 }
 // Conversion methods for marshalling of: UnityEngineInternal.Input.NativeInputDeviceInfo
-extern "C" void NativeInputDeviceInfo_t1714473412_marshal_com(const NativeInputDeviceInfo_t1714473412& unmarshaled, NativeInputDeviceInfo_t1714473412_marshaled_com& marshaled)
+extern "C" void NativeInputDeviceInfo_t256752773_marshal_com(const NativeInputDeviceInfo_t256752773& unmarshaled, NativeInputDeviceInfo_t256752773_marshaled_com& marshaled)
 {
 	marshaled.___deviceId_0 = unmarshaled.get_deviceId_0();
 	marshaled.___deviceDescriptor_1 = il2cpp_codegen_marshal_bstring(unmarshaled.get_deviceDescriptor_1());
 }
-extern "C" void NativeInputDeviceInfo_t1714473412_marshal_com_back(const NativeInputDeviceInfo_t1714473412_marshaled_com& marshaled, NativeInputDeviceInfo_t1714473412& unmarshaled)
+extern "C" void NativeInputDeviceInfo_t256752773_marshal_com_back(const NativeInputDeviceInfo_t256752773_marshaled_com& marshaled, NativeInputDeviceInfo_t256752773& unmarshaled)
 {
 	int32_t unmarshaled_deviceId_temp_0 = 0;
 	unmarshaled_deviceId_temp_0 = marshaled.___deviceId_0;
@@ -999,7 +999,7 @@ extern "C" void NativeInputDeviceInfo_t1714473412_marshal_com_back(const NativeI
 	unmarshaled.set_deviceDescriptor_1(il2cpp_codegen_marshal_bstring_result(marshaled.___deviceDescriptor_1));
 }
 // Conversion method for clean up from marshalling of: UnityEngineInternal.Input.NativeInputDeviceInfo
-extern "C" void NativeInputDeviceInfo_t1714473412_marshal_com_cleanup(NativeInputDeviceInfo_t1714473412_marshaled_com& marshaled)
+extern "C" void NativeInputDeviceInfo_t256752773_marshal_com_cleanup(NativeInputDeviceInfo_t256752773_marshaled_com& marshaled)
 {
 	il2cpp_codegen_marshal_free_bstring(marshaled.___deviceDescriptor_1);
 	marshaled.___deviceDescriptor_1 = NULL;
@@ -1013,38 +1013,38 @@ extern "C" void NativeInputDeviceInfo_t1714473412_marshal_com_cleanup(NativeInpu
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void UnityEngineInternal.Input.NativeInputSystem::.cctor()
-extern "C"  void NativeInputSystem__cctor_m2401270017 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+extern "C"  void NativeInputSystem__cctor_m153442296 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
 {
 	{
-		NativeInputSystem_set_hasDeviceDiscoveredCallback_m1910740132(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+		NativeInputSystem_set_hasDeviceDiscoveredCallback_m935159801(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void UnityEngineInternal.Input.NativeInputSystem::NotifyUpdate(UnityEngineInternal.Input.NativeInputUpdateType)
-extern "C"  void NativeInputSystem_NotifyUpdate_m1334631794 (RuntimeObject * __this /* static, unused */, int32_t ___updateType0, const RuntimeMethod* method)
+extern "C"  void NativeInputSystem_NotifyUpdate_m590869076 (RuntimeObject * __this /* static, unused */, int32_t ___updateType0, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (NativeInputSystem_NotifyUpdate_m1334631794_MetadataUsageId);
+		il2cpp_codegen_initialize_method (NativeInputSystem_NotifyUpdate_m590869076_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	NativeUpdateCallback_t4055949114 * V_0 = NULL;
+	NativeUpdateCallback_t3874572432 * V_0 = NULL;
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(NativeInputSystem_t3245625084_il2cpp_TypeInfo_var);
-		NativeUpdateCallback_t4055949114 * L_0 = ((NativeInputSystem_t3245625084_StaticFields*)il2cpp_codegen_static_fields_for(NativeInputSystem_t3245625084_il2cpp_TypeInfo_var))->get_onUpdate_0();
+		IL2CPP_RUNTIME_CLASS_INIT(NativeInputSystem_t3674566808_il2cpp_TypeInfo_var);
+		NativeUpdateCallback_t3874572432 * L_0 = ((NativeInputSystem_t3674566808_StaticFields*)il2cpp_codegen_static_fields_for(NativeInputSystem_t3674566808_il2cpp_TypeInfo_var))->get_onUpdate_0();
 		V_0 = L_0;
-		NativeUpdateCallback_t4055949114 * L_1 = V_0;
+		NativeUpdateCallback_t3874572432 * L_1 = V_0;
 		if (!L_1)
 		{
 			goto IL_0014;
 		}
 	}
 	{
-		NativeUpdateCallback_t4055949114 * L_2 = V_0;
+		NativeUpdateCallback_t3874572432 * L_2 = V_0;
 		int32_t L_3 = ___updateType0;
 		NullCheck(L_2);
-		NativeUpdateCallback_Invoke_m3641844754(L_2, L_3, /*hidden argument*/NULL);
+		NativeUpdateCallback_Invoke_m244271118(L_2, L_3, /*hidden argument*/NULL);
 	}
 
 IL_0014:
@@ -1053,31 +1053,31 @@ IL_0014:
 	}
 }
 // System.Void UnityEngineInternal.Input.NativeInputSystem::NotifyEvents(System.Int32,System.IntPtr)
-extern "C"  void NativeInputSystem_NotifyEvents_m4105945358 (RuntimeObject * __this /* static, unused */, int32_t ___eventCount0, intptr_t ___eventData1, const RuntimeMethod* method)
+extern "C"  void NativeInputSystem_NotifyEvents_m378102542 (RuntimeObject * __this /* static, unused */, int32_t ___eventCount0, intptr_t ___eventData1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (NativeInputSystem_NotifyEvents_m4105945358_MetadataUsageId);
+		il2cpp_codegen_initialize_method (NativeInputSystem_NotifyEvents_m378102542_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	NativeEventCallback_t1718667241 * V_0 = NULL;
+	NativeEventCallback_t330405571 * V_0 = NULL;
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(NativeInputSystem_t3245625084_il2cpp_TypeInfo_var);
-		NativeEventCallback_t1718667241 * L_0 = ((NativeInputSystem_t3245625084_StaticFields*)il2cpp_codegen_static_fields_for(NativeInputSystem_t3245625084_il2cpp_TypeInfo_var))->get_onEvents_1();
+		IL2CPP_RUNTIME_CLASS_INIT(NativeInputSystem_t3674566808_il2cpp_TypeInfo_var);
+		NativeEventCallback_t330405571 * L_0 = ((NativeInputSystem_t3674566808_StaticFields*)il2cpp_codegen_static_fields_for(NativeInputSystem_t3674566808_il2cpp_TypeInfo_var))->get_onEvents_1();
 		V_0 = L_0;
-		NativeEventCallback_t1718667241 * L_1 = V_0;
+		NativeEventCallback_t330405571 * L_1 = V_0;
 		if (!L_1)
 		{
 			goto IL_0015;
 		}
 	}
 	{
-		NativeEventCallback_t1718667241 * L_2 = V_0;
+		NativeEventCallback_t330405571 * L_2 = V_0;
 		int32_t L_3 = ___eventCount0;
 		intptr_t L_4 = ___eventData1;
 		NullCheck(L_2);
-		NativeEventCallback_Invoke_m34659762(L_2, L_3, L_4, /*hidden argument*/NULL);
+		NativeEventCallback_Invoke_m2247291025(L_2, L_3, L_4, /*hidden argument*/NULL);
 	}
 
 IL_0015:
@@ -1086,30 +1086,30 @@ IL_0015:
 	}
 }
 // System.Void UnityEngineInternal.Input.NativeInputSystem::NotifyDeviceDiscovered(UnityEngineInternal.Input.NativeInputDeviceInfo)
-extern "C"  void NativeInputSystem_NotifyDeviceDiscovered_m3150596229 (RuntimeObject * __this /* static, unused */, NativeInputDeviceInfo_t1714473412  ___deviceInfo0, const RuntimeMethod* method)
+extern "C"  void NativeInputSystem_NotifyDeviceDiscovered_m1956611394 (RuntimeObject * __this /* static, unused */, NativeInputDeviceInfo_t256752773  ___deviceInfo0, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (NativeInputSystem_NotifyDeviceDiscovered_m3150596229_MetadataUsageId);
+		il2cpp_codegen_initialize_method (NativeInputSystem_NotifyDeviceDiscovered_m1956611394_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	NativeDeviceDiscoveredCallback_t3569735077 * V_0 = NULL;
+	NativeDeviceDiscoveredCallback_t1479953752 * V_0 = NULL;
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(NativeInputSystem_t3245625084_il2cpp_TypeInfo_var);
-		NativeDeviceDiscoveredCallback_t3569735077 * L_0 = ((NativeInputSystem_t3245625084_StaticFields*)il2cpp_codegen_static_fields_for(NativeInputSystem_t3245625084_il2cpp_TypeInfo_var))->get_s_OnDeviceDiscoveredCallback_2();
+		IL2CPP_RUNTIME_CLASS_INIT(NativeInputSystem_t3674566808_il2cpp_TypeInfo_var);
+		NativeDeviceDiscoveredCallback_t1479953752 * L_0 = ((NativeInputSystem_t3674566808_StaticFields*)il2cpp_codegen_static_fields_for(NativeInputSystem_t3674566808_il2cpp_TypeInfo_var))->get_s_OnDeviceDiscoveredCallback_2();
 		V_0 = L_0;
-		NativeDeviceDiscoveredCallback_t3569735077 * L_1 = V_0;
+		NativeDeviceDiscoveredCallback_t1479953752 * L_1 = V_0;
 		if (!L_1)
 		{
 			goto IL_0014;
 		}
 	}
 	{
-		NativeDeviceDiscoveredCallback_t3569735077 * L_2 = V_0;
-		NativeInputDeviceInfo_t1714473412  L_3 = ___deviceInfo0;
+		NativeDeviceDiscoveredCallback_t1479953752 * L_2 = V_0;
+		NativeInputDeviceInfo_t256752773  L_3 = ___deviceInfo0;
 		NullCheck(L_2);
-		NativeDeviceDiscoveredCallback_Invoke_m2211932943(L_2, L_3, /*hidden argument*/NULL);
+		NativeDeviceDiscoveredCallback_Invoke_m1840290670(L_2, L_3, /*hidden argument*/NULL);
 	}
 
 IL_0014:
@@ -1118,12 +1118,12 @@ IL_0014:
 	}
 }
 // System.Void UnityEngineInternal.Input.NativeInputSystem::set_hasDeviceDiscoveredCallback(System.Boolean)
-extern "C"  void NativeInputSystem_set_hasDeviceDiscoveredCallback_m1910740132 (RuntimeObject * __this /* static, unused */, bool ___value0, const RuntimeMethod* method)
+extern "C"  void NativeInputSystem_set_hasDeviceDiscoveredCallback_m935159801 (RuntimeObject * __this /* static, unused */, bool ___value0, const RuntimeMethod* method)
 {
-	typedef void (*NativeInputSystem_set_hasDeviceDiscoveredCallback_m1910740132_ftn) (bool);
-	static NativeInputSystem_set_hasDeviceDiscoveredCallback_m1910740132_ftn _il2cpp_icall_func;
+	typedef void (*NativeInputSystem_set_hasDeviceDiscoveredCallback_m935159801_ftn) (bool);
+	static NativeInputSystem_set_hasDeviceDiscoveredCallback_m935159801_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (NativeInputSystem_set_hasDeviceDiscoveredCallback_m1910740132_ftn)il2cpp_codegen_resolve_icall ("UnityEngineInternal.Input.NativeInputSystem::set_hasDeviceDiscoveredCallback(System.Boolean)");
+	_il2cpp_icall_func = (NativeInputSystem_set_hasDeviceDiscoveredCallback_m935159801_ftn)il2cpp_codegen_resolve_icall ("UnityEngineInternal.Input.NativeInputSystem::set_hasDeviceDiscoveredCallback(System.Boolean)");
 	_il2cpp_icall_func(___value0);
 }
 #ifdef __clang__
@@ -1142,7 +1142,7 @@ extern "C"  void NativeInputSystem_set_hasDeviceDiscoveredCallback_m1910740132 (
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern "C"  void DelegatePInvokeWrapper_NativeUpdateCallback_t4055949114 (NativeUpdateCallback_t4055949114 * __this, int32_t ___updateType0, const RuntimeMethod* method)
+extern "C"  void DelegatePInvokeWrapper_NativeUpdateCallback_t3874572432 (NativeUpdateCallback_t3874572432 * __this, int32_t ___updateType0, const RuntimeMethod* method)
 {
 	typedef void (STDCALL *PInvokeFunc)(int32_t);
 	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
@@ -1152,18 +1152,18 @@ extern "C"  void DelegatePInvokeWrapper_NativeUpdateCallback_t4055949114 (Native
 
 }
 // System.Void UnityEngineInternal.Input.NativeUpdateCallback::.ctor(System.Object,System.IntPtr)
-extern "C"  void NativeUpdateCallback__ctor_m4275034622 (NativeUpdateCallback_t4055949114 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+extern "C"  void NativeUpdateCallback__ctor_m2446446559 (NativeUpdateCallback_t3874572432 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
 }
 // System.Void UnityEngineInternal.Input.NativeUpdateCallback::Invoke(UnityEngineInternal.Input.NativeInputUpdateType)
-extern "C"  void NativeUpdateCallback_Invoke_m3641844754 (NativeUpdateCallback_t4055949114 * __this, int32_t ___updateType0, const RuntimeMethod* method)
+extern "C"  void NativeUpdateCallback_Invoke_m244271118 (NativeUpdateCallback_t3874572432 * __this, int32_t ___updateType0, const RuntimeMethod* method)
 {
 	if(__this->get_prev_9() != NULL)
 	{
-		NativeUpdateCallback_Invoke_m3641844754((NativeUpdateCallback_t4055949114 *)__this->get_prev_9(), ___updateType0, method);
+		NativeUpdateCallback_Invoke_m244271118((NativeUpdateCallback_t3874572432 *)__this->get_prev_9(), ___updateType0, method);
 	}
 	Il2CppMethodPointer targetMethodPointer = __this->get_method_ptr_0();
 	RuntimeMethod* targetMethod = (RuntimeMethod*)(__this->get_method_3());
@@ -1195,20 +1195,20 @@ extern "C"  void NativeUpdateCallback_Invoke_m3641844754 (NativeUpdateCallback_t
 	}
 }
 // System.IAsyncResult UnityEngineInternal.Input.NativeUpdateCallback::BeginInvoke(UnityEngineInternal.Input.NativeInputUpdateType,System.AsyncCallback,System.Object)
-extern "C"  RuntimeObject* NativeUpdateCallback_BeginInvoke_m3023408740 (NativeUpdateCallback_t4055949114 * __this, int32_t ___updateType0, AsyncCallback_t4194240925 * ___callback1, RuntimeObject * ___object2, const RuntimeMethod* method)
+extern "C"  RuntimeObject* NativeUpdateCallback_BeginInvoke_m2218767577 (NativeUpdateCallback_t3874572432 * __this, int32_t ___updateType0, AsyncCallback_t4006585187 * ___callback1, RuntimeObject * ___object2, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (NativeUpdateCallback_BeginInvoke_m3023408740_MetadataUsageId);
+		il2cpp_codegen_initialize_method (NativeUpdateCallback_BeginInvoke_m2218767577_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	void *__d_args[2] = {0};
-	__d_args[0] = Box(NativeInputUpdateType_t4102540627_il2cpp_TypeInfo_var, &___updateType0);
+	__d_args[0] = Box(NativeInputUpdateType_t974919227_il2cpp_TypeInfo_var, &___updateType0);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
 }
 // System.Void UnityEngineInternal.Input.NativeUpdateCallback::EndInvoke(System.IAsyncResult)
-extern "C"  void NativeUpdateCallback_EndInvoke_m3611419703 (NativeUpdateCallback_t4055949114 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+extern "C"  void NativeUpdateCallback_EndInvoke_m1846901449 (NativeUpdateCallback_t3874572432 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 }

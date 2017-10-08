@@ -38,9 +38,6 @@ void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_IMGUI();
 	RegisterModule_IMGUI();
 
-	void RegisterModule_UNET();
-	RegisterModule_UNET();
-
 	void RegisterModule_GameCenter();
 	RegisterModule_GameCenter();
 
@@ -61,9 +58,6 @@ void RegisterStaticallyLinkedModulesGranular()
 
 	void RegisterModule_UnityWebRequest();
 	RegisterModule_UnityWebRequest();
-
-	void RegisterModule_Web();
-	RegisterModule_Web();
 
 	void RegisterModule_ImageConversion();
 	RegisterModule_ImageConversion();
@@ -147,10 +141,10 @@ class VideoPlayer;
 class WindZone; 
 namespace UI { class CanvasRenderer; } template <> void RegisterClass<UI::CanvasRenderer>();
 class Collider; template <> void RegisterClass<Collider>();
-class BoxCollider; template <> void RegisterClass<BoxCollider>();
+class BoxCollider; 
 class CapsuleCollider; 
 class CharacterController; 
-class MeshCollider; 
+class MeshCollider; template <> void RegisterClass<MeshCollider>();
 class SphereCollider; 
 class TerrainCollider; 
 class WheelCollider; 
@@ -210,16 +204,16 @@ class LightProbes; template <> void RegisterClass<LightProbes>();
 class Material; template <> void RegisterClass<Material>();
 class ProceduralMaterial; 
 class Mesh; template <> void RegisterClass<Mesh>();
-class Motion; template <> void RegisterClass<Motion>();
-class AnimationClip; template <> void RegisterClass<AnimationClip>();
+class Motion; 
+class AnimationClip; 
 class PreviewAnimationClip; 
 class NavMeshData; 
 class OcclusionCullingData; 
 class PhysicMaterial; 
 class PhysicsMaterial2D; 
 class PreloadData; template <> void RegisterClass<PreloadData>();
-class RuntimeAnimatorController; template <> void RegisterClass<RuntimeAnimatorController>();
-class AnimatorController; template <> void RegisterClass<AnimatorController>();
+class RuntimeAnimatorController; 
+class AnimatorController; 
 class AnimatorOverrideController; 
 class SampleClip; template <> void RegisterClass<SampleClip>();
 class AudioClip; template <> void RegisterClass<AudioClip>();
@@ -284,7 +278,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 73 non stripped classes
+	//Total: 69 non stripped classes
 	//0. Behaviour
 	RegisterClass<Behaviour>();
 	//1. Unity::Component
@@ -411,25 +405,17 @@ RegisterBuiltinTypes();
 	RegisterClass<CloudWebServicesManager>();
 	//62. AudioManager
 	RegisterClass<AudioManager>();
-	//63. RuntimeAnimatorController
-	RegisterClass<RuntimeAnimatorController>();
-	//64. AnimatorController
-	RegisterClass<AnimatorController>();
-	//65. LightProbes
+	//63. LightProbes
 	RegisterClass<LightProbes>();
-	//66. RenderSettings
+	//64. RenderSettings
 	RegisterClass<RenderSettings>();
-	//67. LevelGameManager
+	//65. LevelGameManager
 	RegisterClass<LevelGameManager>();
-	//68. BoxCollider
-	RegisterClass<BoxCollider>();
-	//69. LightmapSettings
+	//66. LightmapSettings
 	RegisterClass<LightmapSettings>();
-	//70. AnimationClip
-	RegisterClass<AnimationClip>();
-	//71. Motion
-	RegisterClass<Motion>();
-	//72. Light
+	//67. MeshCollider
+	RegisterClass<MeshCollider>();
+	//68. Light
 	RegisterClass<Light>();
 
 }

@@ -23,7 +23,6 @@
 		11DD4430A9FAC008DF971D74 /* libil2cpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8F4F0EB5F6E0CAF7F4D507 /* libil2cpp.a */; };
 		151D4945859EED1E1E510446 /* GenericMethods1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DC04510B9F9144E02DC5B9D /* GenericMethods1.cpp */; };
 		1859EA9B19214E7B0022C3D3 /* MetalHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1859EA9A19214E7B0022C3D3 /* MetalHelper.mm */; };
-		18FE407AB97494C8F6759C28 /* Il2CppCompilerCalculateTypeValues_22Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B75A491E93E1C80692039C81 /* Il2CppCompilerCalculateTypeValues_22Table.cpp */; };
 		1A0647DF987A3A7EB4CF9752 /* Bulk_UnityEngine.AnimationModule_0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D87F43F9A95D13EE629551E8 /* Bulk_UnityEngine.AnimationModule_0.cpp */; };
 		1A4444A39FD03296545B743C /* Il2CppCompilerCalculateTypeValues_5Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48EE4860B6E0B5AE35BE9C02 /* Il2CppCompilerCalculateTypeValues_5Table.cpp */; };
 		1AC649BF8CD04E28C250205F /* Il2CppCompilerCalculateTypeValues_1Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C121421A95A033D92017B983 /* Il2CppCompilerCalculateTypeValues_1Table.cpp */; };
@@ -142,7 +141,6 @@
 		9C6247C39A64D2EA276104BA /* Il2CppMetadataUsage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50564D16AD70579854DCE3E1 /* Il2CppMetadataUsage.cpp */; };
 		9CE94D62B3E5E81D440E4E05 /* Il2CppCompilerCalculateTypeValues_18Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AD4F048B4575B153349292 /* Il2CppCompilerCalculateTypeValues_18Table.cpp */; };
 		9E67432CB6738BCA3E078431 /* Bulk_Vuforia.UnityExtensions_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4004F35BF58DD92D6C37C69 /* Bulk_Vuforia.UnityExtensions_2.cpp */; };
-		A026449A8008C10AD1E78FF7 /* Bulk_UnityEngine.UNETModule_0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD634AA790923CC5A3B7EA67 /* Bulk_UnityEngine.UNETModule_0.cpp */; };
 		A42644C9AEA5D4622D8286E3 /* Bulk_Vuforia.UnityExtensions_0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04F54A8D87C3371E1ECAA73B /* Bulk_Vuforia.UnityExtensions_0.cpp */; };
 		A4BC46B5B53EB71A2B812DEE /* Il2CppCompilerCalculateTypeValues_7Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AC542788E510A71EEDDE318 /* Il2CppCompilerCalculateTypeValues_7Table.cpp */; };
 		A52746F896EA709C5BC84A7F /* Bulk_Generics_4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7F24D588BC228518551383A /* Bulk_Generics_4.cpp */; };
@@ -170,7 +168,6 @@
 		C9BB4302BA92FEDC61420D30 /* Bulk_UnityEngine.CoreModule_0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93D3482BA92DF804CCA386E8 /* Bulk_UnityEngine.CoreModule_0.cpp */; };
 		CCE8C2BA135C7EA3000D8035 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE8C2B9135C7EA3000D8035 /* Security.framework */; };
 		D2A343899E1ECDFCE4B621CF /* Bulk_UnityEngine.PhysicsModule_0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7E7405ABBF65AD74B763C03 /* Bulk_UnityEngine.PhysicsModule_0.cpp */; };
-		D36540528A7E39D0A28D316E /* Bulk_mscorlib_10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6994807A0D3C02C5DEDCBDE /* Bulk_mscorlib_10.cpp */; };
 		D82DCFC30E8000A5005D6AD8 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D82DCFBB0E8000A5005D6AD8 /* main.mm */; };
 		D8A1C7280E80637F000160D3 /* RegisterMonoModules.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8A1C7240E80637F000160D3 /* RegisterMonoModules.cpp */; };
 		D9D1490698E9F0E9DD29A87D /* Bulk_Generics_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1F4B4FB1546D7277168AAF /* Bulk_Generics_1.cpp */; };
@@ -399,8 +396,6 @@
 		AF41457E8045C6FCBC5ADF1F /* VuforiaRenderDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = VuforiaRenderDelegate.mm; path = /Applications/Unity/PlaybackEngines/VuforiaSupport/iOS/VuforiaRenderDelegate.mm; sourceTree = "<absolute>"; };
 		B0684E5291175580E2C37ADC /* Il2CppCompilerCalculateTypeValues_17Table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues_17Table.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValues_17Table.cpp; sourceTree = SOURCE_ROOT; };
 		B2174EBA90FDBB6AB72C5DFF /* LaunchScreen-iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "LaunchScreen-iPhone.xib"; sourceTree = SOURCE_ROOT; };
-		B6994807A0D3C02C5DEDCBDE /* Bulk_mscorlib_10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_mscorlib_10.cpp; path = Classes/Native/Bulk_mscorlib_10.cpp; sourceTree = SOURCE_ROOT; };
-		B75A491E93E1C80692039C81 /* Il2CppCompilerCalculateTypeValues_22Table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues_22Table.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValues_22Table.cpp; sourceTree = SOURCE_ROOT; };
 		B9084A7A9DAA4C218EA6B63C /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		BD8F4F0EB5F6E0CAF7F4D507 /* libil2cpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libil2cpp.a; path = Libraries/libil2cpp.a; sourceTree = SOURCE_ROOT; };
 		BFC14D73AA5056996E85F273 /* UnresolvedVirtualCallStubs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnresolvedVirtualCallStubs.cpp; path = Classes/Native/UnresolvedVirtualCallStubs.cpp; sourceTree = SOURCE_ROOT; };
@@ -418,7 +413,6 @@
 		D8A1C72A0E8063A1000160D3 /* libiPhone-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libiPhone-lib.a"; path = "Libraries/libiPhone-lib.a"; sourceTree = SOURCE_ROOT; };
 		DA5942FF8B441BDFA9AE5A06 /* libVuforia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVuforia.a; path = Libraries/libVuforia.a; sourceTree = SOURCE_ROOT; };
 		DAB24FE6B79FA2ED0E9A8FA3 /* Bulk_mscorlib_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_mscorlib_2.cpp; path = Classes/Native/Bulk_mscorlib_2.cpp; sourceTree = SOURCE_ROOT; };
-		DD634AA790923CC5A3B7EA67 /* Bulk_UnityEngine.UNETModule_0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_UnityEngine.UNETModule_0.cpp; path = Classes/Native/Bulk_UnityEngine.UNETModule_0.cpp; sourceTree = SOURCE_ROOT; };
 		DE4A4932848E2695D609BC36 /* Bulk_mscorlib_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_mscorlib_1.cpp; path = Classes/Native/Bulk_mscorlib_1.cpp; sourceTree = SOURCE_ROOT; };
 		E061449A9C10D9E2B13D6FD3 /* IUnityGraphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IUnityGraphics.h; path = Classes/Unity/IUnityGraphics.h; sourceTree = SOURCE_ROOT; };
 		E16041A6ADE51A3748026308 /* libVuforiaWrapper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVuforiaWrapper.a; path = Libraries/libVuforiaWrapper.a; sourceTree = SOURCE_ROOT; };
@@ -636,9 +630,6 @@
 				790A4E1A8AD31FF718CB9CF8 /* UnityClassRegistration.cpp */,
 				65F146F2B68E6FF675288DF7 /* UnityICallRegistration.cpp */,
 				BFC14D73AA5056996E85F273 /* UnresolvedVirtualCallStubs.cpp */,
-				DD634AA790923CC5A3B7EA67 /* Bulk_UnityEngine.UNETModule_0.cpp */,
-				B6994807A0D3C02C5DEDCBDE /* Bulk_mscorlib_10.cpp */,
-				B75A491E93E1C80692039C81 /* Il2CppCompilerCalculateTypeValues_22Table.cpp */,
 			);
 			path = Native;
 			sourceTree = "<group>";
@@ -928,7 +919,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$PROJECT_DIR/MapFileParser.sh\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"";
+			shellScript = "\"$PROJECT_DIR/MapFileParser.sh\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1075,9 +1066,6 @@
 				06534E848467B400DDDB98E5 /* UnresolvedVirtualCallStubs.cpp in Sources */,
 				A7434E0388843A07233D00D4 /* VuforiaRenderDelegate.mm in Sources */,
 				DDF74873BB21A47CD8049855 /* VuforiaNativeRendererController.mm in Sources */,
-				A026449A8008C10AD1E78FF7 /* Bulk_UnityEngine.UNETModule_0.cpp in Sources */,
-				D36540528A7E39D0A28D316E /* Bulk_mscorlib_10.cpp in Sources */,
-				18FE407AB97494C8F6759C28 /* Il2CppCompilerCalculateTypeValues_22Table.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1136,6 +1124,9 @@
 					"$(SRCROOT)/Libraries",
 					"$(SRCROOT)/Libraries",
 					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
 					"$(inherited)",
 					"\"$(SRCROOT)/Classes\"",
 					"\"$(SRCROOT)\"",
@@ -1163,6 +1154,9 @@
 					"$(OTHER_CFLAGS)",
 				);
 				OTHER_LDFLAGS = (
+					"-lc++",
+					"-lc++",
+					"-lc++",
 					"-lc++",
 					"-lc++",
 					"-lc++",
@@ -1204,6 +1198,9 @@
 					"$(SRCROOT)/Libraries",
 					"$(SRCROOT)/Libraries",
 					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
 					"$(inherited)",
 					"\"$(SRCROOT)/Classes\"",
 					"\"$(SRCROOT)\"",
@@ -1231,6 +1228,9 @@
 					"$(OTHER_CFLAGS)",
 				);
 				OTHER_LDFLAGS = (
+					"-lc++",
+					"-lc++",
+					"-lc++",
 					"-lc++",
 					"-lc++",
 					"-lc++",
@@ -1415,6 +1415,9 @@
 					"$(SRCROOT)/Libraries",
 					"$(SRCROOT)/Libraries",
 					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
 					"$(inherited)",
 					"\"$(SRCROOT)/Classes\"",
 					"\"$(SRCROOT)\"",
@@ -1442,6 +1445,9 @@
 					"$(OTHER_CFLAGS)",
 				);
 				OTHER_LDFLAGS = (
+					"-lc++",
+					"-lc++",
+					"-lc++",
 					"-lc++",
 					"-lc++",
 					"-lc++",
@@ -1571,6 +1577,9 @@
 					"$(SRCROOT)/Libraries",
 					"$(SRCROOT)/Libraries",
 					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
 					"$(inherited)",
 					"\"$(SRCROOT)/Classes\"",
 					"\"$(SRCROOT)\"",
@@ -1598,6 +1607,9 @@
 					"$(OTHER_CFLAGS)",
 				);
 				OTHER_LDFLAGS = (
+					"-lc++",
+					"-lc++",
+					"-lc++",
 					"-lc++",
 					"-lc++",
 					"-lc++",
